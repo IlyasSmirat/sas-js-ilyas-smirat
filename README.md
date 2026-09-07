@@ -7,9 +7,9 @@
 
 | Information | À compléter |
 |---|---|
-| Nom et prénom | ... |
-| Classe | ... |
-| Nom d'utilisateur GitHub | ... |
+| Nom et prénom | Ilyas Smirat |
+| Classe | A |
+| Nom d'utilisateur GitHub | IlyasSmirat |
 
 ## 🧭 Comment travailler
 
