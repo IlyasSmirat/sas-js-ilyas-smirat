@@ -9,4 +9,6 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+var data = "123"
+console.log(typeof data)
+console.log(typeof Number (data))

@@ -20,4 +20,3 @@
 const PI = 3.14
 var rayon = 5
 var result = (PI * rayon * 2)
-console.log(result)

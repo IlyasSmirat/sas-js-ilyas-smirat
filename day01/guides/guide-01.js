@@ -8,5 +8,8 @@
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
-
-// TODO: écris ta solution ici.
+var a = 5
+var b = 10
+var temp = a
+a = b
+b = temp

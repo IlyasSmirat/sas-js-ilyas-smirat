@@ -9,4 +9,8 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+var age
+if(age >= 18)
+    console.log("Entrée autorisée")
+else
+    console.log("Accès refusé")
