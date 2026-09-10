@@ -14,4 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var chaine = "10"
+var nombre = 10
+if (chaine == nombre){
+    console.log(true)
+}else {
+    console.log(false);
+} 
+
+if (chaine === nombre)
+    console.log(true)
+else {
+    console.log(false);
+} 

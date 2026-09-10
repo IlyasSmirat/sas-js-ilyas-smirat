@@ -18,4 +18,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var hasAccount = false
+var isGuest = true
+var cartValue = 150
+var isBanned = false
+if (!isBanned && (!hasAccount || cartValue > 100)){
+    console.log("Commande validée")
+}else{
+    console.log("Commande invalidée")
+}

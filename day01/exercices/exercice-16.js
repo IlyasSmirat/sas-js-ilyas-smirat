@@ -14,4 +14,8 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var numero = "06123445678"
+if (numero.length === 10 && typeof numero == "string")
+    console.log("Numéro valide")
+else
+    console.log("Numéro invalide")

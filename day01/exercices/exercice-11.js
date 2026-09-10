@@ -17,4 +17,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var panier = 350
+var discount = panier * 0.1
+if (panier > 500)
+    console.log("Coût final: " + (panier - discount) + "MAD, Livraison: Gratuite")
+else if (panier > 200)
+    console.log("Coût final: "+ panier + " MAD, Livraison: Gratuite")

@@ -17,4 +17,31 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var joueur1 = "Pierre"
+var joueur2 = "Ciseaux"
+
+if (joueur1 == "Pierre" && joueur2 != "Pierre")
+{
+    if(joueur2 == "Ciseaux")
+        console.log("Joueur 1 gagne !")
+    else if(joueur2 == "papier")
+        console.log("Joueur 2 gagne !")
+}
+else if (joueur1 == "Ciseaux" && joueur2 != "Ciseaux")
+{
+    if(joueur2 == "papier")
+         console.log("Joueur 1 gagne !")
+    else if(joueur2 == "Pierre")
+        console.log("Joueur 2 gagne !")
+}
+else if (joueur1 == "papier" && joueur2 != "papier")
+{
+    if (joueur2 == "Pierre")
+        console.log("Joueur 1 gagne !")
+    else if( joueur2 == "Ciseaux")
+        console.log("Joueur 2 gagne !")
+}
+else if (joueur1 == joueur2)
+{
+    console.log("égalité")
+}

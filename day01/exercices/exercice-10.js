@@ -19,4 +19,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var age
+if (age < 12)
+    console.log("Enfant")
+else if ((age >= 12) && (age <= 17))
+    console.log("Adolescent")
+else if((age >= 18) && (age <= 64))
+    console.log("Adulte")
+else if (age >= 65)
+    console.log("Senior")

@@ -25,7 +25,12 @@
 
 > À compléter avec mes propres mots.
 
----
+"var" : est accessible dans toute la fonction ou elle est declaré, globale si elle est déclaré hors fonction,
+elle est réassignable et redéclarable dans le meme "scope"
+
+"let" : elle est accessible seulement dans la meme fonction ou elle est declaré,réassignable et n' est pas redéclarable dans le meme "scope"
+
+"const" : elle est accessible aussi uniquement dans la meme fonction ou elle est déclaré, ni réassignable ni redéclarable (a une valeur fix)
 
 ### Question 02
 
@@ -37,7 +42,14 @@
 
 > À compléter avec mes propres mots.
 
----
+Les 7 types primitifs de données en JavaScript sont :
+- integer
+- string
+- boolean
+- Null
+- Objects
+- undifined
+- NaN
 
 ### Question 03
 
@@ -49,7 +61,7 @@
 
 > À compléter avec mes propres mots.
 
----
+typeof null signifie comme un object en JavaScript, 
 
 ### Question 04
 
