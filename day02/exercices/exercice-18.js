@@ -17,4 +17,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+var N = 15
+var i = 0
+
+while(true)
+{
+    if (N == 1)
+    {
+        break
+    }
+   N = N % 2 == 0 ? N = N / 2 : N = (N * 3) + 1
+    i++
+}
+console.log(i)

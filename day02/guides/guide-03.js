@@ -8,5 +8,12 @@
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
-
-// TODO: écris ta solution ici.
+for(let i = 0; i < 3; i++)
+{
+    let result = ""
+    for (let j = 0; j < 3; j++)
+    {
+        result += "*" 
+    }
+    console.log(result)
+}

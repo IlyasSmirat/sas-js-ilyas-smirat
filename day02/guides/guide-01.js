@@ -9,4 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+for(var i = 1; i <= 5; i++)
+{
+    console.log(i)
+}

@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+var N = 100
+var compteur = 0
+
+while(N >= 1)
+{
+    N = N / 2
+    compteur++
+}
+console.log(compteur)

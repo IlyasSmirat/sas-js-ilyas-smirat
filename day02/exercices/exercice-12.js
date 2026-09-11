@@ -16,12 +16,16 @@
 // 2. Écris ta solution sous cette ligne.
 let nb = 29
 var i = 2
+var boo = true
 while(i <= 28)
 {
     if (nb % i == 0)
     {
-        return 0
+        console.log("29 n'est pas un nombre premier")
+        boo = false
+        break;
     }
     i++
 }
-console.log("29 est un nombre premier")
+if(boo)
+    console.log("29 est un nombre premier")

@@ -20,8 +20,8 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-var lines = 5
-for(i = 1; i <= lines; i++)
+var leng = 5
+for(var i = 1; i <= leng; i++)
 {
-    let 
+    console.log(" ".repeat(leng - i) + "*")
 }
