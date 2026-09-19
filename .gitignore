@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+node_modules
+=======
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+>>>>>>> 40bcdf9f7bd0daf349030e0f8fa425a9ea8ca819
